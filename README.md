@@ -14,7 +14,7 @@ There are in total 14 Models, all scaled to fit a cube of approximately 1x1x1 un
 
 ## Download
 
-The dataset can be downloaded [here]([https://owncloud.fraunhofer.de/index.php/s/QqUfr7sRbDDXrld](https://www.doi.org/10.6084/m9.figshare.25592400)).
+The dataset can be downloaded [here](https://www.doi.org/10.6084/m9.figshare.25592400)
 
 ## Benchmarks
 <b> The code to reproduce the benchmarks will be published once the corresponding paper is accepted. </b>
