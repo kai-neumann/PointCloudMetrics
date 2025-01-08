@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="Point Cloud Quality Metrics for Incremental Image-based 3D Reconstruction">
+  <meta property="og:title" content="Point Cloud Quality Metrics"/>
+  <meta property="og:description" content="Point Cloud Quality Metrics for Incremental Image-based 3D Reconstruction"/>
+  <meta property="og:url" content="https://kai-neumann.github.io/PointCloudMetrics/"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/images/RQF_overview_Banner.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="Point Cloud Quality Metrics">
+  <meta name="twitter:description" content="Point Cloud Quality Metrics for Incremental Image-based 3D Reconstruction">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/RQF_overview_Banner.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="Quality metrics; Point clouds; Image-based 3D reconstruction; Next-best-view planning (NBV)">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Point Cloud Quality Metrics for Incremental Image-based 3D Reconstruction</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Point Cloud Quality Metrics for Incremental Image-based 3D Reconstruction</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://github.com/kai-neumann" target="_blank">K. A. Neumann</a><sup>1</sup>,
+			  </span>
+			  <span class="author-block">
+			    <a href="https://verus.digital/" target="_blank">R. Tausch</a><sup>2</sup>,
+			  </span>
+			  <span class="author-block">
+			    <a href="https://www.igd.fraunhofer.de/en/institute/employees/hasan-kutlu.html" target="_blank">H. Kutlu</a><sup>1</sup>,
+			  </span>
+			  <span class="author-block">
+			    <a href="https://www.igd.fraunhofer.de/en/institute/employees/arjan-kuijper.html" target="_blank">A. Kuijper</a><sup>1,3</sup>,
+			  </span>
+              <span class="author-block">
+			    <a href="https://www.igd.fraunhofer.de/en/institute/employees/pedro-santos.html" target="_blank">P. Santos</a><sup>1</sup>,
+			  </span>
+			  <span class="author-block">
+				<a href="https://www.igd.fraunhofer.de/en/institute/employees/dieter-w-fellner.html" target="_blank">D.W. Fellner</a><sup>1,3,4</sup>
+			  </span>
+			</div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>Fraunhofer Institute for Computer Graphics Research IGD, Germany<br><sup>2</sup>Verus Digital, Germany<br><sup>3</sup>TU Darmstadt, Germany<br><sup>4</sup>Graz University of Technology, Institute of Computer Graphics and Knowledge Visualization, Austria<br><br><b>Multimedia Tools and Applications</b><br>Issue 1250: Heritage Preservation in the Digital Age: Advances in Machine Learning, Monomodal and Multimodal Processing, and Human-Machine Interaction</span>
+                    <!--<span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
+                  </div>
+				  
+				  <!-- Arxiv PDF link -->
+                   <div class="column has-text-centered">
+                    <div class="publication-links">
+                      <span class="link-block">
+                        <a href="https://link.springer.com/content/pdf/10.1007/s11042-025-20596-6.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+					
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/kai-neumann/PointCloudMetrics" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+				
+				<!-- Dataset link -->
+                  <span class="link-block">
+                    <a href="https://figshare.com/articles/dataset/Cultural_Heritage_Models_for_Benchmarking_MVS_Algorithms/25592400" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file"></i>
+                    </span>
+                    <span>Dataset</span>
+                  </a>
+                </span>
+
+
+                <!-- ArXiv abstract Link -->
+                <!--<span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <!-- Your video here -->
+        <source src="static/videos/MetricOverviewAnimation_Athena.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Point cloud quality metrics can effectively be used as a feedback mechanism for image-based 3D reconstructions. In our work we propose a novel
+		metric called <b>Reconstruction Quality Feedback (RQF)</b> that is able to robustly and efficiently identify parts that require improvement
+		by being part of additional images.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Image-based 3D reconstruction is a powerful method for accurately reconstructing an object’s
+			geometry and texture from images. A crucial factor for the accuracy and completeness of the
+			resulting reconstructed model is the choice of poses for capturing images, which is called
+			view planning. One possible view planning strategy uses an iterative feedback loop that
+			switches between planning poses and an incremental reconstruction to autonomously digitize
+			an object without prior knowledge. However, this approach requires identifying which parts
+			of an object are “poorly reconstructed” and thus would benefit from being part of additional
+			images. <br><br>This work explores the use of point cloud quality metrics to provide this feedback by
+			comprehensively comparing a set of existing and newly introduced metrics in terms of their
+			time-dependent behavior, similarity, and their applicability to view planning. Among the
+			newly proposed metrics this work introduces the Reconstruction Quality Feedback (RQF),
+			which shows a significantly improved performance in simulations when being used for view
+			planning. The effectiveness of RQF is also demonstrated for real objects on an autonomous
+			robotic 3D digitization system.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Paper video. -->
+      <h2 class="title has-text-centered">Reconstruction Quality Feedback (RQF)</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+			<div class="item">
+				<!-- Your image here -->
+				<img src="static/images/RQF_overview.png" alt="Metric overview"/>
+				<h2 class="subtitle has-text-centered">
+				  Visualization of the different components that in total make up the RQF metric. The value of each point
+					is visualized using a blue-green-yellow-red gradient, with high values displayed in red.
+				</h2>
+			</div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Image carousel -->
+<!--<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+	
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          First image description.
+        </h2>
+      </div>
+      <div class="item">
+        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Second image description.
+        </h2>
+      </div>
+      <div class="item">
+        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+         Third image description.
+       </h2>
+     </div>
+     <div class="item">
+      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        Fourth image description.
+      </h2>
+    </div>
+  </div>
+</div>
+</div>
+</section>-->
+<!-- End image carousel -->
+
+<section class="hero is-small is-light">
+  <div class="container is-max-desktop">
+	<br>
+	<h2 class="title is-3  has-text-centered">Iterative Reconstructions of a Single Object</h2>
+    <div class="hero-body">
+      <div class="item">
+		<!-- Your image here -->
+		<img src="static/images/ViewplanningSimulationOverviewAphrodite2-1.jpg" alt="Simulation Overview"/>
+		<h2 class="subtitle has-text-centered">
+		  Overview of the reconstruction completeness over simulated feedback loops when using different
+		  metrics as feedback method for view planning. The metrics proposed in this article are highlighted in blue and
+		  show a comparable if not significantly better effectiveness compared to existing metrics.
+		</h2>
+		</div>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-small">
+  <div class="container is-max-desktop">
+	<br>
+	<h2 class="title is-3 has-text-centered">Iterative Reconstructions of the Full Dataset</h2>
+    <div class="hero-body">
+      <div class="item">
+		<!-- Your image here -->
+		<img src="static/images/AlphaCompleteness.jpg" alt="Alpha Completeness"/>
+		<h2 class="subtitle has-text-centered">
+		  Fraction of simulations that resulted in a completeness of over 75% (90% respectively) when using a
+			specific metric as feedback mechanism for iterative view planning.
+		</h2>
+		</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Youtube video -->
+<!--<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>-->
+<!-- End youtube video -->
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX" style="background-color: #f5f5f5;">
+    <div class="container is-max-desktop content">
+      <h2 class="title has-text-centered">BibTeX</h2>
+      <pre style="background-color: white;"><code>@article{Neumann2025,
+	author={Neumann, Kai A. and Tausch, Reimar and Kutlu, Hasan 
+		and Kuijper, Arjan and Santos, Pedro and Fellner, Dieter},
+	title={Point cloud quality metrics for incremental image-based 3D reconstruction},
+	journal={Multimedia Tools and Applications},
+	year={2025},
+	month={Jan},
+	day={08},
+	issn={1573-7721},
+	doi={10.1007/s11042-025-20596-6},
+	url={https://doi.org/10.1007/s11042-025-20596-6}
+}
+</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
